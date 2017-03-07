@@ -1,0 +1,26 @@
+
+activeMQ和nio（如netty、mina）最大的区别，其有独立的服务器，而自己用netty也可以实现
+
+参考： 
+http://www.cnblogs.com/xwdreamer/archive/2012/02/21/2360818.html
+1.首先，启动ActiveMQ，启动ActiveMQ以后，登陆：http://localhost:8161/admin/ 进行测试
+2.先运行： Receiver
+3.后运行：Sender
+
+
+
+jms和activeMQ
+参考： http://blog.csdn.net/jiuqiyuliang/article/category/5617711
+
+监控 
+ActiveMQ默认启动时，启动了内置的jetty服务器，提供一个用于监控ActiveMQ的admin应用。 
+admin：http://127.0.0.1:8161/admin/ 
+用户名和密码都是admin
+
+
+
+
+
+
+
+
